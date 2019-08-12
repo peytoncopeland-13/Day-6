@@ -13,6 +13,7 @@
 		9CF280BE230214D500EAE32F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CF280BC230214D500EAE32F /* LaunchScreen.storyboard */; };
 		9CF280C9230214D500EAE32F /* TablePracticeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF280C8230214D500EAE32F /* TablePracticeTests.swift */; };
 		9CF280D4230214D500EAE32F /* TablePracticeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF280D3230214D500EAE32F /* TablePracticeUITests.swift */; };
+		9CF280E4230219FB00EAE32F /* SneakerTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF280E3230219FB00EAE32F /* SneakerTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		9CF280CF230214D500EAE32F /* TablePracticeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TablePracticeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CF280D3230214D500EAE32F /* TablePracticeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TablePracticeUITests.swift; sourceTree = "<group>"; };
 		9CF280D5230214D500EAE32F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9CF280E3230219FB00EAE32F /* SneakerTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SneakerTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				9CF280BA230214D500EAE32F /* Assets.xcassets */,
 				9CF280BC230214D500EAE32F /* LaunchScreen.storyboard */,
 				9CF280BF230214D500EAE32F /* Info.plist */,
+				9CF280E3230219FB00EAE32F /* SneakerTableViewController.swift */,
 			);
 			path = TablePractice;
 			sourceTree = "<group>";
@@ -253,6 +256,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9CF280E4230219FB00EAE32F /* SneakerTableViewController.swift in Sources */,
 				9CF280B4230214D400EAE32F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
