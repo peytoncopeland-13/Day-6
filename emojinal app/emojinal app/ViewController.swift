@@ -27,13 +27,12 @@ class ViewController: UIViewController {
             
             let emojiMessage = customMessage[emojis[selectedEmotion]!]?[0]
             
-        let alertController = UIAlertController(title: "\(titleText)", message: "\(messageText)", preferredStyle: UIAlertController.Style.alert
             
-                    let alertController = UIAlertController(title: "\(titleText)", message: "\(messageText)", preferredStyle: UIAlertController.Style.alert)
+            let alertController = UIAlertController(title: "\(titleText)", message: "\(messageText)", preferredStyle: UIAlertController.Style.alert)
                     
-                    alertController.addAction(UIAlertAction(title: "OK", style: UIAlertAction.Style.default, handler: nil))
+            alertController.addAction(UIAlertAction(title: "OK", style: UIAlertAction.Style.default, handler: nil))
                     
-                    present(alertController, animated: true, completion: nil)
+            present(alertController, animated: true, completion: nil)
         }
         }
 
